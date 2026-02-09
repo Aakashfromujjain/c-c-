@@ -1,2 +1,2 @@
 # c++
-practise codeing and problems
+practise coding and problems
