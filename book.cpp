@@ -5,7 +5,7 @@ class Book {
 private:
     string title;
     string author;
-    double price;
+    double double price;
     string publisher;
     int stock;
 
