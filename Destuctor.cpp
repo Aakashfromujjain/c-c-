@@ -29,5 +29,6 @@ int main()
 	cout<<"Second Block close"<<endl;
 }
 cout<<"Main block close"<<endl;
+cout <<"onserve the value";
 return 0;
 }
