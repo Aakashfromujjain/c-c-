@@ -1,0 +1,22 @@
+class Solution {
+  public:
+    int minComputation(vector<int> &files) {
+        // code here
+        
+        int cost = 0;
+        priority_queue<int, vector<int>, greater<int>> pq(begin(files), end(files));
+        
+        while (pq.size() > 1) {
+            
+            int a = pq.top();
+            pq.pop();
+            int b = pq.top();
+            pq.pop();
+            
+            cost += (a + b);
+            pq.push(a + b);
+        }
+        
+        return cost;
+    }
+};
